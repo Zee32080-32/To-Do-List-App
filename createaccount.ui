@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateAccount</class>
+ <widget class="QMainWindow" name="CreateAccount">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>60</y>
+      <width>391</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="verticalSpacing">
+      <number>7</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="FNamelabel">
+       <property name="text">
+        <string>First name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="FNamelineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="LNamelabel">
+       <property name="text">
+        <string>Last Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="LNamelineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="Emaillabel">
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="EmaillineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="UserNamelabel">
+       <property name="text">
+        <string>User Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="UserNamelineEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="Passwordlabel">
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="PasswordlineEdit"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="RePasswordlabel">
+       <property name="text">
+        <string>Re-Type Password</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="RePasswordlineEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>290</y>
+      <width>260</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="CreateAccountpushButton">
+       <property name="text">
+        <string>Create Account</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="LoginpushButton">
+       <property name="text">
+        <string>Go Back and Sign In</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="Verificationlabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>360</y>
+      <width>511</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A verification code has been sent to your email please enter the 6 digit code</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="VerificationlineEdit">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>390</y>
+      <width>113</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="VerifypushButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>390</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Verify!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="EmailInUselabel">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>330</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E-mail is already in use</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCreate_Account">
+    <property name="title">
+     <string>Create Account</string>
+    </property>
+   </widget>
+   <addaction name="menuCreate_Account"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

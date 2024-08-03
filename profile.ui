@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Profile</class>
+ <widget class="QMainWindow" name="Profile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>262</x>
+      <y>510</y>
+      <width>239</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="BottomButtons_horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="GoBack_pushButton">
+       <property name="text">
+        <string>Go to Main Page</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="DeleteAcc_pushButton">
+       <property name="text">
+        <string>Delete Account</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>271</width>
+      <height>219</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="UserDetails_verticalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="Username_verticalLayout">
+       <item>
+        <widget class="QLabel" name="UserName_label">
+         <property name="text">
+          <string>UserName</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="UserNameDetails_label">
+         <property name="text">
+          <string>UserName Details </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="FirstName_verticalLayout">
+       <item>
+        <widget class="QLabel" name="FName_label">
+         <property name="text">
+          <string>First Name</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="FNameDetails_label">
+         <property name="text">
+          <string>First Name Details</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="Lname_verticalLayout">
+       <item>
+        <widget class="QLabel" name="LName_label">
+         <property name="text">
+          <string>Last Name</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="LNameDetails_label">
+         <property name="text">
+          <string>Last Name Details</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="Email_verticalLayout">
+       <item>
+        <widget class="QLabel" name="Email_label">
+         <property name="text">
+          <string>Email</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="EmailDetails_label">
+         <property name="text">
+          <string>Email Details</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
